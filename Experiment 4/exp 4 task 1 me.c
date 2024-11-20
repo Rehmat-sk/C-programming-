@@ -1,3 +1,8 @@
+//NAME: SHAIKH RAHMAT 
+//ROLL NO:38 
+//UIN: 241A046
+//DIV:A
+
 #include<stdio.h>
 int isprimenumber(int num);
 int isprimenumber(int num)
