@@ -17,10 +17,10 @@ int main()
   {
 
    int num;
-   printf("\t\t\t*** iterative factorial function***\n\n");
-   printf("enter number:");
+   printf("\t\t\t***ITERATIVE FACTORIAL FUNCTION***\n\n");
+   printf("Enter number:");
    scanf("%d",&num);
-   printf("factorial of %d is %d", num, factorial_iterative(num));
+   printf("FACTORIAL of %d is %d", num, factorial_iterative(num));
 
    return 0;
 
