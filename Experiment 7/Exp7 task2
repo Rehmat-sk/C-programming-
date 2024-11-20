@@ -1,0 +1,49 @@
+//NAME: SHAIKH RAHMAT BANO
+//ROLL NO: 38
+//UIN:241A046
+//DIV:A
+//COURSE:AIDS
+
+
+
+
+#include<stdio.h>
+int main()
+{
+
+    int arr1[50][50], brr1[50][50], crr1[50][50], i, j, n;
+    printf("\n\nAddition of Two Matrices:\n");
+    printf("-----------------------------\n");
+    printf("Input the Size of the Square Matrix:");
+    scanf("%d", &n);
+
+      printf("Input elements of first matrix:\n");
+      for(i=0;i<n;i++){
+            printf("\n");
+        for(j=0;j<n;j++)
+        {
+
+          printf("element - [%d],[%d]:",i,j);
+          scanf("%d", &arr1[i][j]);
+
+      }
+      }
+     printf("Input elements of second matrix:\n");
+      for(i=0;i<n;i++){
+            printf("\n");
+        for(j=0;j<n;j++){
+          printf("element - [%d],[%d]:",i,j);
+          scanf("%d", &brr1[i][j]);
+      }
+      }
+      for(i=0;i<n;i++)
+      {
+        for(j=0;j<n;j++)
+        {
+            crr1[i][j] = arr1[i][j] + brr1[i][j];
+            printf("Addition of matrix[%d],[%d] = [%d]\n",i,j,crr1[i][j]);
+        }
+
+      }
+      return 0;
+}
