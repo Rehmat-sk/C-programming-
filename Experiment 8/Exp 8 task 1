@@ -1,22 +1,23 @@
-//SHAIKH ZOYA
-//241A016
-//AIDS
-#include<stdio.h>
- int factorial_recursive(int num)
-{
-    if(num<=1)
-    {
-        return 1;
-    }
-    return num*factorial_recursive(num-1);
-}
+//Name:Shaikh Rahmat 
+//Roll no:38
+//Div:A
+//UIN:241A046
 
-    int main()
-    {
-        int num;
-        printf("\t\t\t***recurcive factorial function***\n");
-        printf("enter number :");
-        scanf("%d",&num);
-        printf("factorial of %d and %d",num, factorial_recursive(num));
-        return 0;
-    }
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+char str [100];
+int i;
+printf(“\t\t ***Palindrome Finder***\n\n”);
+printf(“Enter Your String:”);
+gets(str);
+for (i=0;i< strlen(str)-1;i++){
+if (str[i]!=str[strlen (str)-1-i]){
+printf(“The String is NOT a Palindrome”);
+return 0;
+}
+}
+printf(“The String is a Palindrome”);
+return 0;
+}
