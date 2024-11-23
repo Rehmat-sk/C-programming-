@@ -2,20 +2,17 @@
 //Roll no:38
 //Div:A
 //UIN:241A046
-
 #include<stdio.h>
-#include<string.h>
-void main()
+int main() 
 {
 char str[100];
-int len=0;
-printf(“\t\t***string length finder***\n\n”);
-printf(“enter your string:”);
-gets(str);
-while(str[len]!='\0')
-{
-len++;
+int length=0;
+printf("\t\t***string length finder***\n\n");
+printf("enter your string:");
+gets (str);
+while(str [length] !='\0'){
+length++;
 }
-printf(“string length:%d characters”,len);
+printf(“string length:%d characters”,length);
 return 0;
 }
