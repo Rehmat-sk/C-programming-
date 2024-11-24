@@ -46,7 +46,7 @@ int find_topper(struct student_record students[], int n)
      struct student_record students[n];
      printf("\t\t***TOPPER FINDER***\n\n");
      input_student_data(students, n);
-     int topper_index = find (students, n);
+     int topper_index = find_topper(students, n);
      printf("\n topper details:\n");
      printf("name:%s\n",students[topper_index].name);
      printf("roll number:%d\n",students[topper_index].roll_number);
