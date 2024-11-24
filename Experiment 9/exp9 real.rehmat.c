@@ -22,7 +22,7 @@ void input_student_data(struct student_record students[], int n)
         printf("Name:  ");
         scanf("%s", &students[i].name);
         printf("Roll Number: ");
-        scanf("%d",&students[i].name);
+        scanf("%d",&students[i].roll_number);
         printf("total marks: ");
         scanf("%f", &students[i].total_marks);
     }
