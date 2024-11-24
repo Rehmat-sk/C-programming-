@@ -38,7 +38,8 @@ int find_topper(struct student_record students[], int n)
             topper_index = i;
         }
     }
-
+    return topper_index;
+}
  int main()
  {
      int n=5;
