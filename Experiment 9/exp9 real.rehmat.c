@@ -20,7 +20,7 @@ void input_student_data(struct student_record students[], int n)
     {
         printf("enter details for student %d:\n ", i+1);
         printf("Name:  ");
-        scanf("%s", students[i].name);
+        scanf("%s", &students[i].name);
         printf("Roll Number: ");
         scanf("%d",&students[i].name);
         printf("total marks: ");
